@@ -1,0 +1,168 @@
+@media only screen and (max-width:850px) {
+	.aboutMe .adamParent,.aboutMe .webDev {
+		padding: inherit;
+		width: 100%;
+		display: block;
+	}
+
+	.aboutMe .webDev {
+		margin-top: 40px;
+		padding-bottom: 100px;
+	}
+
+	.aboutMe .info {
+		margin-top: 20px;
+	}
+
+	.aboutMe a {
+		text-align: center;
+	}
+
+	.portfolio .under {
+		display: block;
+		font-size: 1rem;
+		padding-top: 10px;
+	}
+
+	.portfolio .back-content .back-list li,.portfolio .front-content .front-list li {
+		margin: 0;
+	}
+
+	.fixed {
+		left: 150px;
+	}
+
+	.pre-contact {
+		padding: 150px 0 350px;
+	}
+
+	.contact .contact-info {
+		width: 82%;
+	}
+
+	.social-net {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width:620px) {
+	.main-header .main-title {
+		text-align: center;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.portfolio-nav-list {
+		width: 100%;
+	}
+
+	.portfolio-nav-list li {
+		width: 20%;
+	}
+
+	.skills .extra-list,.skills .skill-list {
+		padding: inherit;
+		margin-bottom: 40px;
+		width: 100%;
+		display: block;
+	}
+
+	.menu-side {
+		left: 150px;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+		z-index: 100;
+	}
+
+	.pre-contact p {
+		text-align: left;
+		padding: 0 0 450px 6px;
+		font-size: 2.5rem;
+	}
+
+	.portfolio .back-content .back-list li,.portfolio .front-content .front-list li {
+		width: 49%;
+	}
+
+	.contact .contact-info {
+		display: block;
+		width: 100%;
+		background: 0 0;
+		margin: inherit;
+		padding-top: 20px;
+	}
+
+	.social-net {
+		position: relative;
+		display: inline;
+		width: 100%;
+		background: 0 0;
+	}
+
+	.social-net .social-list {
+		margin: 40px auto;
+		width: 55%;
+	}
+
+	.social-net .social-list li {
+		width: 30%;
+	}
+
+	.contact .contact-info input,.contact .contact-info textarea {
+		display: block;
+		width: 100%;
+	}
+
+	.contact .contact-info button {
+		display: block;
+		width: 20%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.chat-btn {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width:420px) {
+	.main-header .main-title {
+		text-align: center;
+		font-size: 3rem;
+		width: 90%;
+	}
+
+	.aboutMe .block {
+		padding: 40px 10px 10px;
+	}
+
+	.aboutMe .webDev {
+		padding-bottom: 150px;
+	}
+
+	.aboutMe .webDev .block {
+		padding-bottom: 20px;
+	}
+
+	.portfolio .portfolio-back,.portfolio .portfolio-front {
+		width: 50%;
+	}
+
+	.pre-contact p {
+		padding: 0 0 100px 6px;
+		font-size: 2rem;
+	}
+
+	.chat-btn {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.pre-main,.skills {
+		display: none;
+	}
+}
